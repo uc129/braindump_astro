@@ -1,0 +1,13 @@
+# build output
+dist
+dist-ssr
+
+# dependencies
+node_modules
+
+# environment
+.env
+
+# macos-specific files
+.DS_Store
+.vercel
