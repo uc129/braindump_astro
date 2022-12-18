@@ -3,8 +3,8 @@ $name = strip_tags($_POST['name']);
 $email = strip_tags($_POST['email']);
 $message = strip_tags($_POST['message']);
 
-$recipient = "hello@lokkeestudios.com";
-$subject = "Contact Form | Lokkee Studios";
+$recipient = "hello@braindumpstudios.com";
+$subject = "Contact Form | braindump Studios";
 
 $headers = "From: $name <$email>\r\n";
 

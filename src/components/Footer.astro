@@ -1,6 +1,7 @@
 ---
 /* imports */
 import site from "../data/site";
+import FileButton from "./Button/FileButton.astro";
 ---
 
 <footer class="w-full bottom-0 py-6 relative z-10" aria-label="Primary">
@@ -12,7 +13,7 @@ import site from "../data/site";
         <img
           class="h-16 w-16"
           src="/assets/logo.svg"
-          alt="Lokkee Studios logo"
+          alt="braindump Studios logo"
         />
       </div>
 
@@ -98,6 +99,7 @@ import site from "../data/site";
             class="text-xxs lg:text-xs uppercase py-4 md:py-6 hover:underline focus:underline"
             href="/imprint">Imprint</a
           >
+          <FileButton/>
         </div>
       </div>
     </div>

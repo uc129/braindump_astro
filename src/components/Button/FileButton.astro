@@ -1,0 +1,11 @@
+---
+// const file='/assets/resume.pdf'
+let resume;
+ resume = await Astro.glob('../../../public/assets/resume.pdf');
+
+// console.log('resume',resume)
+---
+
+<div>{resume}</div>
+
+<!-- <script>import './fbutton.ts'</script> -->

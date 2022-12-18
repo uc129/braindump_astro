@@ -19,9 +19,10 @@ export interface Props {
 
 /* declare properties */
 const { project } = Astro.props;
+console.log('project',project)
 ---
 
-<BaseLayout title={`${project.name} ― Projects | LOKKEE STUDIOS`}>
+<BaseLayout title={`${project.name} ― Projects | braindump STUDIOS`}>
   <main>
     <!--======= PROJECT ========-->
     <ProjectPage project={project} />
